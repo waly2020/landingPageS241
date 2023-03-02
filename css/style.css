@@ -518,3 +518,133 @@ div.none-m {
     }
 
 }
+
+.mobile-menu {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    padding: 0 40px;
+    padding-top: calc(50vh - 210px);
+    right: -320px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.mobile-menu:before {
+    content: '';
+    position: fixed;
+    width: calc(100% - 280px);
+    height: 100%;
+    left: -100%;
+    top: 0;
+    z-index: 4;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.mobile-menu .btn,
+.mobile-menu input.btn,
+.mobile-menu .btn:visited,
+.mobile-menu .btn:focus,
+.mobile-menu .btn:active {
+    padding: 0.375rem 1.875rem;
+    font-size: 0.875rem;
+    text-align: center;
+    display: block;
+}
+
+.mobile-menu .gradient_button {
+    padding: 0.5rem 1.875rem !important;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.mobile-menu .outline_button {
+    padding: 0.375rem 1.875rem;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.mobile-menu .logotype {
+    display: block;
+    text-align: center;
+}
+
+.mobile-menu ul {
+    padding: 1.25rem 0;
+}
+
+.mobile-menu ul li {
+    width: 100%;
+}
+
+.mobile-menu ul li a {
+    display: block;
+    padding: 10px 0px;
+    color: #555 !important;
+    transition: 0.2s;
+}
+
+.mobile-menu ul li a:hover {
+    padding-left: 10px;
+}
+
+.mobile-menu .close-menu-button {
+    position: absolute;
+    display: block;
+    right: 30px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    z-index: 6;
+    transition: 0.2s;
+    background-color: #000;
+}
+
+.mobile-menu .close-menu-button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px 1px #000;
+}
+
+.mobile-menu .close-menu-button:hover span {
+    background: #000;
+}
+
+.mobile-menu .close-menu-button span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 18px;
+    left: 9px;
+    border-radius: 8px;
+    transition: 0.2s;
+    background-color: #ffff;
+}
+
+.mobile-menu .close-menu-button span:nth-child(1) {
+    transform: rotateZ(45deg);
+}
+
+.mobile-menu .close-menu-button span:nth-child(2) {
+    transform: rotateZ(-45deg);
+}
+
+.active-menu {
+    right: 0;
+    z-index: 9999
+}
+
+.active-menu:before {
+    left: 0;
+}
