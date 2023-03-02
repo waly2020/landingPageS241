@@ -2303,176 +2303,6 @@ header nav.nav-light.fixed-nav {
   text-align: center;
 }
 
-/*  ** 2.08 Section Team ** */
-.team {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#1830b5), color-stop(12%, #1d3eba), color-stop(50%, #214bbe), color-stop(87%, #1d3eba), to(#1830b5));
-  background-image: -o-linear-gradient(bottom, #1830b5 0%, #1d3eba 12%, #214bbe 50%, #1d3eba 87%, #1830b5 100%);
-  background-image: linear-gradient(0deg, #1830b5 0%, #1d3eba 12%, #214bbe 50%, #1d3eba 87%, #1830b5 100%);
-}
-
-.team .title,
-.team .description-content {
-  text-align: center;
-}
-
-.team .team-card {
-  width: calc(25% - 30px);
-  background-color: rgba(20, 36, 92, 0.4);
-  border-radius: 10px;
-  padding: 35px 15px 30px 15px;
-  color: #ffffff;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  text-align: center;
-  float: left;
-  margin-right: 40px;
-}
-
-.team .team-card .photo {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center center;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
-  border: 5px solid #415184;
-  border-radius: 50%;
-}
-
-.team .team-card .photo img {
-  width: 100%;
-}
-
-.team .team-card .name {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1.25rem;
-  padding-top: 25px;
-}
-
-.team .team-card .post {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  color: #0998ec;
-  padding: 10px 0;
-}
-
-.team .team-card .characteristic {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.875rem;
-  padding: 0 10px;
-  color: #cdd6f6;
-  height: 110px;
-  overflow: hidden;
-}
-
-.team .team-card ul {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
-  margin-top: 20px;
-  overflow: hidden;
-}
-
-.team .team-card ul li {
-  float: left;
-}
-
-.team .team-card ul li a {
-  color: #0998ec;
-  display: block;
-  width: 40px;
-  line-height: 40px;
-  background-color: #425085;
-  border-radius: 50px;
-  margin: 0 5px;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.team .team-card ul li a:hover {
-  background-color: #0998ec;
-  color: #ffffff;
-}
-
-.team .team-card:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.team .team-card:hover .photo {
-  border-color: #ffffff;
-}
-
-.team .team-card:nth-child(4n+4) {
-  margin-right: 0;
-}
-
-.team-light {
-  background: #F1F2F6;
-}
-
-.team-light .team-card {
-  background-color: rgba(255, 255, 255, 0.4);
-  -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
-}
-
-.team-light .team-card .name {
-  color: #333333;
-}
-
-.team-light .team-card .post {
-  color: #425085;
-}
-
-.team-light .team-card .characteristic {
-  color: #555555;
-}
-
-.team-light .team-card ul li a {
-  color: #ffffff;
-}
-
-.team-light .team-card:hover .photo {
-  border: 5px solid #0998ec;
-}
-
-.team-light .team-card:hover .post {
-  color: #0998ec;
-}
-
-.partners .partner-logo {
-  width: 25%;
-  display: block;
-  float: left;
-  height: 100px;
-  line-height: 100px;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  margin-bottom: 20px;
-}
-
-.partners .partner-logo:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.partners .partner-logo img {
-  max-width: 100%;
-}
-
-.partners-light {
-  background: #E9EBF1;
-}
 
 .news .title,
 .news .description-content {
@@ -4053,11 +3883,6 @@ footer .copyright span:nth-child(1) {
     font-size: 0.8125rem;
   }
 
-  .partners .partner-logo {
-    height: 75px;
-    padding: 0.625rem;
-  }
-
   .partners .title {
     margin-bottom: 1rem;
   }
@@ -4282,11 +4107,6 @@ footer .copyright span:nth-child(1) {
 
   .news .btn {
     margin-top: 20px;
-  }
-
-  .partners .partner-logo {
-    width: 50%;
-    height: 100px;
   }
 
   footer .footer-title {
@@ -4669,12 +4489,6 @@ footer .copyright span:nth-child(1) {
   .blog-content .blog-card:nth-child(2n) .article-content .title {
     font-size: 1.125rem;
     line-height: 1.5rem;
-  }
-
-  .partners .partner-logo {
-    height: 60px;
-    width: 45%;
-    margin-right: 5%;
   }
 
   .subscribe form input[type="text"],

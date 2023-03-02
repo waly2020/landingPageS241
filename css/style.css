@@ -477,6 +477,26 @@ div.none-m {
     opacity: .3;
 }
 
+.partenaires {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.partenaire {
+    display: block;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.155);
+}
+
+.partenaire img {
+    height: 100%;
+}
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
