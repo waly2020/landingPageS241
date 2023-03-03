@@ -639,7 +639,7 @@ $(document).ready(function () {
 		// Preloader timeout
 		setTimeout(function () {
 			$('.preloader').addClass('d-none');
-		}, 5000);
+		}, 6000);
 	};
 
 });

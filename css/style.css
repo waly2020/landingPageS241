@@ -218,12 +218,23 @@ div.none-m {
 }
 
 .title {
-
     color: #aa0000;
 }
 
 .title span {
     color: #555;
+}
+
+.title h1 div {
+    display: inline-block;
+}
+
+.sim {
+    color: #000;
+}
+
+.num {
+    transform: translateX(-10px);
 }
 
 .info {
@@ -249,6 +260,7 @@ div.none-m {
 
 #para-header {
     color: #aa0000;
+    font-weight: bold;
 }
 
 .mt-10 {
@@ -386,12 +398,16 @@ div.none-m {
 }
 
 @keyframes dropShadow {
-    from {
-        filter: drop-shadow(0px 0px 0px #ffffff00);
+    0% {
+        filter: drop-shadow(2px 2px 0px #ffffff00);
     }
 
-    to {
+    50% {
         filter: drop-shadow(2px 2px 0px #fff);
+    }
+
+    100% {
+        filter: drop-shadow(2px 2px 0px #ffffff00);
     }
 }
 
@@ -421,7 +437,7 @@ div.none-m {
 }
 
 #banner-cards>img {
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
     box-shadow: -30px 30px 0 hsla(0, 0%, 0%, 0.153);
 }
