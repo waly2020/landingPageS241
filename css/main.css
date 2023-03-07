@@ -1021,17 +1021,6 @@ input.gradient_button,
   color: #404040;
 }
 
-/* Preloader */
-.preloader {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  z-index: 10000;
-}
-
 @-webkit-keyframes size {
   0% {
     -webkit-transform: scale(1.1);
