@@ -518,6 +518,11 @@ div.none-m {
     height: 100%;
 }
 
+strong a {
+    text-decoration: underline;
+    color: #555 !important;
+}
+
 @keyframes rotate {
     from {
         transform: scale(1) rotate(0deg);
