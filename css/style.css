@@ -518,6 +518,11 @@ div.none-m {
     height: 100%;
 }
 
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 strong a {
     text-decoration: underline;
     color: #555 !important;
