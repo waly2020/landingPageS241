@@ -182,6 +182,7 @@ body::-webkit-scrollbar {
     top: 0;
     text-transform: uppercase;
     transform: translate(-10px, -30%);
+    z-index: -1;
 }
 
 .red {
@@ -226,18 +227,33 @@ body::-webkit-scrollbar {
     /* background-color: orange; */
 }
 
-.btns button {
-    border: none;
-    outline: none;
+.btns a {
     padding: 10px 4px;
     border-radius: 50px;
     color: #fff;
     font-size: 12px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .c2 .back-cible {
     display: flex;
     justify-content: flex-end;
+}
+
+.back-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: #000; */
+    z-index: -2;
+    opacity: .08;
+}
+
+.back-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @keyframes dropShadow {
