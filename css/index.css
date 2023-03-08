@@ -162,6 +162,9 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 3px 2px rgba(37, 37, 37, 0.253);
+    border-radius: 10px;
+    padding: 30px 7px;
     /* border: solid 1px rgb(214, 96, 16); */
 }
 
@@ -185,6 +188,14 @@ body::-webkit-scrollbar {
     transform: translate(-10px, -30%);
 }
 
+.red {
+    background-color: rgb(139, 4, 4);
+}
+
+.black {
+    background-color: #000;
+}
+
 .titre-shadow h1 {
     color: rgb(177, 5, 5);
 }
@@ -200,7 +211,7 @@ body::-webkit-scrollbar {
     max-width: 350px;
     /* height: 40px; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     /* background-color: orange; */
 }
@@ -208,15 +219,15 @@ body::-webkit-scrollbar {
 .btns button {
     border: none;
     outline: none;
-    padding: 10px 0;
-    background: rgb(139, 4, 4);
+    padding: 10px 4px;
     border-radius: 50px;
     color: #fff;
+    font-size: 12px;
 }
 
 @keyframes dropShadow {
     0% {
-        filter: drop-shadow(2px 2px 0px #ffffff00);
+        filter: drop-shadow(2px 2px 0px hwb(0 100% 0% / 0));
     }
 
     50% {
