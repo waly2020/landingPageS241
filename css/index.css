@@ -235,6 +235,11 @@ body::-webkit-scrollbar {
     font-size: 12px;
 }
 
+.c2 .back-cible {
+    display: flex;
+    justify-content: flex-end;
+}
+
 @keyframes dropShadow {
     0% {
         filter: drop-shadow(2px 2px 0px hwb(0 100% 0% / 0));
