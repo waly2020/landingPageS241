@@ -81,7 +81,7 @@ body::-webkit-scrollbar {
     min-height: 100vh;
     display: grid;
     grid-template-rows: 70px 1fr;
-    padding: 0 10px;
+    padding: 20px 10px;
 }
 
 .navigation {
@@ -119,11 +119,7 @@ body::-webkit-scrollbar {
 .content-header {
     display: grid;
     grid-template-rows: 0.3fr 1fr;
-    gap: 20px;
-}
-
-.textes {
-    padding-top: 40px;
+    gap: 50px;
 }
 
 .textes h1 {
@@ -162,7 +158,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 3px 2px rgba(37, 37, 37, 0.253);
+    /* box-shadow: 0 0 3px 2px rgba(37, 37, 37, 0.253); */
     border-radius: 10px;
     padding: 30px 7px;
     /* border: solid 1px rgb(214, 96, 16); */
@@ -198,6 +194,20 @@ body::-webkit-scrollbar {
 
 .titre-shadow h1 {
     color: rgb(177, 5, 5);
+}
+
+.back-cible {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .2;
+}
+
+.back-cible img {
+    /* width: 100%; */
+    height: 100%;
+    /* object-fit: cover; */
 }
 
 .cibles p {
@@ -236,5 +246,15 @@ body::-webkit-scrollbar {
 
     100% {
         filter: drop-shadow(2px 2px 0px #ffffff00);
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .cibles {
+        justify-content: center;
+    }
+
+    .cibles .btns {
+        grid-template-columns: 1fr;
     }
 }
