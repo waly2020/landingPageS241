@@ -75,7 +75,7 @@ $(document).ready(function () {
 		// Preloader timeout
 		setTimeout(function () {
 			$('.preloader').addClass('d-none');
-		}, 6000);
+		}, 2000);
 	};
 
 });
