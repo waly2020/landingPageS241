@@ -420,7 +420,7 @@ div.none-m {
     top: 0;
     left: 0;
     background-color: #000;
-    z-index: 1000;
+    z-index: 100000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -580,7 +580,7 @@ strong a {
     height: 100%;
     top: 0;
     right: 0;
-    z-index: 5;
+    z-index: 5 !important;
     padding: 0 40px;
     padding-top: calc(50vh - 210px);
     right: -320px;
