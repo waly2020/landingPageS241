@@ -3,14 +3,16 @@ const navigation = document.querySelector(".navigation");
 const btns = document.querySelectorAll(".btn button");
 const cibles = document.querySelectorAll(".cible");
 
-// setTimeout(function () {
-//     preload.classList.add("d-done");
-// }, 1000);
-
+setTimeout(function () {
+    preload.classList.add("d-done");
+}, 5000);
+preload.addEventListener("transitionend", () => {
+    preload.classList.add("active");
+})
 window.addEventListener("scroll", () => {
     let { scrollY } = window;
-    // console.dir(scrollY);
-    if (scrollY > 50) {
+    console.dir(scrollY);
+    if (scrollY > 2) {
         navigation.classList.add("active");
     } else {
         navigation.classList.remove("active");
