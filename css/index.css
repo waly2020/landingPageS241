@@ -168,7 +168,7 @@ body {
     color: #ff0000;
 }
 
-.titre span {
+.titre>span {
     position: absolute;
     left: 0;
     top: 0;
