@@ -127,6 +127,30 @@ div.none-m {
     width: 100px;
 }
 
+/* swot */
+.content-swot {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    background: purple;
+}
+
+.swots {
+    width: 100%;
+    max-width: 840px;
+    background-color: maroon;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.swot {
+    min-height: 250px;
+    background: #f1f1f1;
+}
+
+/* fin swot */
 .conditions {
     /* background: orange; */
     min-height: 300px;
