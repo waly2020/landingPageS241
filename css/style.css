@@ -133,21 +133,170 @@ div.none-m {
     min-height: 400px;
     display: flex;
     justify-content: center;
-    background: purple;
+    background-color: #2A2E47;
+    padding: 100px 10px;
 }
 
 .swots {
     width: 100%;
-    max-width: 840px;
-    background-color: maroon;
+    max-width: 940px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
 .swot {
+    position: relative;
     min-height: 250px;
-    background: #f1f1f1;
+    display: grid;
+    padding: 30px 0 10px 0;
+}
+
+.sw_1 {
+    background-color: #FFAF00;
+}
+
+.sw_2 {
+    background-color: #F93751;
+}
+
+.sw_3 {
+    background-color: #8CCB02;
+}
+
+.sw_4 {
+    background-color: #00AFFF;
+}
+
+.titre-swot {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.icone-swot {
+    font-size: 4em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.sw_3 .icone-swot,
+.sw_4 .icone-swot {
+    align-items: flex-end;
+}
+
+.sw_1 .titre-swot,
+.sw_3 .titre-swot {
+    padding-left: 40px;
+}
+
+.titre-carte-swot {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background: #fff;
+    font-weight: bold;
+}
+
+.sw_1 .titre-carte-swot,
+.sw_3 .titre-carte-swot {
+    padding: 5px 20px 5px 40px;
+}
+
+.texte-swot {
+    position: relative;
+    font-size: 14px;
+    border-left: solid 3px #fff;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.sw_1 .texte-swot,
+.sw_3 .texte-swot {
+    margin-left: 35px;
+}
+
+.sw_1,
+.sw_3 {
+    grid-template-columns: 1fr 100px;
+}
+
+.sw_2,
+.sw_4 {
+    grid-template-columns: 100px 1fr;
+}
+
+.sw_1,
+.sw_4 {
+    border-radius: 0 50px 0 50px;
+}
+
+.sw_2,
+.sw_3 {
+    border-radius: 50px 0 50px 0;
+}
+
+.cercle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background: #fff;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sw_1 .cercle {
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+
+.sw_2 .cercle {
+    align-items: flex-end;
+    padding-left: 20px;
+}
+
+.sw_3 .cercle {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.sw_4 .cercle {
+    padding-left: 20px;
+}
+
+.sw_1 .cercle {
+    right: 0;
+    bottom: 0;
+    border-radius: 100% 0% 0% 0% / 100% 0% 0% 0%;
+    border-top: 10px solid #FF8550;
+    border-left: 10px solid #FF8550;
+}
+
+.sw_2 .cercle {
+    left: 0;
+    bottom: 0;
+    border-radius: 0% 100% 0% 0% / 0% 100% 0% 0%;
+    border-top: 10px solid #C82B7C;
+    border-right: 10px solid #C82B7C;
+}
+
+.sw_3 .cercle {
+    right: 0;
+    top: 0;
+    border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
+    border-bottom: 10px solid #2F9002;
+    border-left: 10px solid #2F9002;
+}
+
+.sw_4 .cercle {
+    left: 0;
+    top: 0;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 0%;
+    border-right: 10px solid #0064DB;
+    border-bottom: 10px solid #0064DB;
 }
 
 /* fin swot */
