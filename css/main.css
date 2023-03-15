@@ -28,7 +28,6 @@
 		** 2.04 Section Offering
 		** 2.05 Section About
   		** 2.06 Section Platform
-		** 2.07 Section Roadmap
 		** 2.08 Section Team
 		** 2.09 Section Info
 		** 2.10 Section FAQ
@@ -1860,12 +1859,6 @@ header nav.nav-light.fixed-nav {
   margin-right: 0;
 }
 
-.roadmap .title,
-.roadmap .description-content {
-  text-align: center;
-}
-
-
 .news .title,
 .news .description-content {
   text-align: center;
@@ -2654,61 +2647,6 @@ footer .copyright span:nth-child(1) {
 }
 
 @media only screen and (max-width: 1280px) {
-  .title h2 {
-    font-size: 1.75rem;
-    line-height: 2.625rem;
-  }
-
-  .title span {
-    font-size: 2.25rem;
-    line-height: 2.25rem;
-    top: -15px;
-  }
-
-  .title-left span {
-    font-size: 2.75rem;
-  }
-
-  .home_blue .title h1 {
-    font-size: 2.25rem;
-    line-height: 1.875rem;
-  }
-
-  .home_blue h2 {
-    font-size: 2.625rem;
-    line-height: 2.625rem;
-  }
-
-  .home_blue .description-content {
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    padding-right: 60px;
-  }
-
-  .home_blue .big-image {
-    width: 50vw;
-    right: 0;
-  }
-
-  .home_dark .counter {
-    width: 80%;
-    margin-left: 10%;
-  }
-
-  .home_dark .title h1 {
-    font-size: 3.5rem;
-    line-height: 4.375rem;
-  }
-
-  .blue-banner .title {
-    margin-bottom: 0;
-  }
-
-  .description-content {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-bottom: 2rem;
-  }
 
   .fp-wrap {
     min-height: 640px !important;
@@ -2735,35 +2673,6 @@ footer .copyright span:nth-child(1) {
   .about .about-docs .document-wrap a {
     display: block;
     text-align: right;
-  }
-
-  .roadmap .roadmap-items li .dot {
-    display: block;
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
-    background: url("../img/dot.png") no-repeat center center;
-    background-size: 100%;
-  }
-
-  .roadmap .roadmap-items li .year {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.125rem;
-    color: #ffffff;
-    display: block;
-    padding: 1.25rem 0 0.625rem 0;
-  }
-
-  .roadmap .roadmap-items li h6 {
-    color: #cdd6f6;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.875rem;
-  }
-
-  .roadmap .roadmap-items li:nth-child(4n+4):before {
-    width: calc(100% - 100px);
   }
 
   .info .solution .big-image {
@@ -2851,19 +2760,6 @@ footer .copyright span:nth-child(1) {
   .home_exchange .bg-exchange img {
     width: auto;
     bottom: -80px;
-  }
-
-  .roadmap .roadmap-items li:nth-child(4n+5):after {
-    left: -50px;
-  }
-
-  .roadmap .roadmap-items li:nth-child(4n+4):after {
-    right: -50px;
-  }
-
-  .roadmap .roadmap-items li:nth-child(4n+4):before,
-  .roadmap .roadmap-items li:nth-child(4n+5):before {
-    width: calc(100% - 50px);
   }
 
   .team .team-card {
@@ -3270,12 +3166,12 @@ footer .copyright span:nth-child(1) {
   }
 
   .title h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.75rem;
   }
 
   .title span {
-    font-size: 1.75rem;
+    font-size: 2.3rem;
     top: -20px;
   }
 
@@ -3317,18 +3213,6 @@ footer .copyright span:nth-child(1) {
   .about-docs .big-image,
   .about-docs-dark .big-image {
     width: 35vw;
-  }
-
-  .roadmap .roadmap-items li {
-    width: 50%;
-  }
-
-  .roadmap .roadmap-items li:after {
-    display: none;
-  }
-
-  .roadmap .roadmap-items li:before {
-    width: 100% !important;
   }
 
   .team .team-card {
@@ -3874,7 +3758,7 @@ footer .copyright span:nth-child(1) {
   }
 
   .title h2 {
-    font-size: 1.3125rem;
+    font-size: 1.7rem;
     line-height: 1.5rem;
   }
 
