@@ -1,4 +1,5 @@
 "use strict";
+const preloader = document.querySelector(".preloader");
 $(document).ready(function () {
 
 	//parallax init
@@ -79,3 +80,6 @@ $(document).ready(function () {
 	};
 
 });
+preloader.addEventListener("transitionend", () => {
+	preloader.classList.add("active");
+})
