@@ -344,19 +344,19 @@ div.none-m {
 }
 
 .ci_2 .desc-road {
-    border-left: solid 3px #3F30D1;
+    border: solid 3px #3F30D1;
 }
 
 .ci_3 .desc-road {
-    border-left: solid 3px #9A28F2;
+    border: solid 3px #9A28F2;
 }
 
 .ci_4 .desc-road {
-    border-left: solid 3px #EB2E7E;
+    border: solid 3px #EB2E7E;
 }
 
 .ci_5 .desc-road {
-    border-left: solid 3px #E92E49;
+    border: solid 3px #E92E49;
 }
 
 /* Fin roadmap */
