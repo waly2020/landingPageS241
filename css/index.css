@@ -226,7 +226,7 @@ body {
 .cibles {
     position: relative;
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     margin-top: 20px;
 }
 
@@ -254,11 +254,18 @@ body {
 
 .cible .video {
     width: 100%;
+    min-height: 100px;
 }
 
 .cible .video video {
     width: 100%;
     border-radius: 10px;
+}
+
+.cible .video video[poster] {
+    width: 100%;
+    /* height: 352px; */
+    object-fit: cover;
 }
 
 .content-cible {
