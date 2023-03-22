@@ -255,7 +255,11 @@ body {
 .cible .video {
     width: 100%;
     min-height: 300px;
-    background-color: #000
+}
+
+.cible .video video {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .content-cible {
