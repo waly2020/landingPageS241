@@ -267,12 +267,14 @@ body {
 .para-cibles {
     line-height: 25px;
     padding: 0 5px;
+    text-align: justify;
 }
 
 .btns-cibles {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
+
 }
 
 .btn-cible {
