@@ -264,6 +264,10 @@ body {
     justify-content: space-between;
 }
 
+.para-cibles {
+    line-height: 25px;
+}
+
 .btns-cibles {
     display: flex;
     justify-content: flex-end;
