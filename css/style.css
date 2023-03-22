@@ -14,7 +14,7 @@
 
 .after-span {
     position: relative;
-    color: #F93751;
+    color: #d70d28;
 }
 
 .div-cont-img {
@@ -653,6 +653,8 @@ div.none-m {
 #para-header {
     color: #333;
     font-weight: bold;
+    width: 100%;
+    max-width: 450px;
 }
 
 .mt-10 {
