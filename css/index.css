@@ -273,7 +273,8 @@ body {
     padding: 0 5px;
     text-align: justify;
     width: 100%;
-    max-width: 560px;
+    max-width: 550px;
+    /* word-spacing: -6px; */
 }
 
 .btns-cibles {
