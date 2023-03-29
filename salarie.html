@@ -60,8 +60,9 @@
 							<span></span>
 							<span></span>
 						</span>
-						<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank"
-							class="btn gradient_button btn_small">Nous rejoindre</a>
+						<button class="btn gradient_button btn_small active_calandly">
+							Prendre un rendez-vous
+						</button>
 						<ul>
 							<li><a href="#Home-main">Acceuil</a></li>
 							<li><a href="#about">A propos</a></li>
@@ -94,7 +95,9 @@
 				<li><a href="#conditions">Conditions</a></li>
 				<!-- <li><a href="#swot">Swot</a></li> -->
 			</ul>
-			<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank" class="btn gradient_button">Nous rejoindre</a>
+			<button class="btn gradient_button btn_small active_calandly">
+				Prendre un rendez-vous
+			</button>
 		</div>
 	</header>
 	<!--  -->
@@ -113,8 +116,9 @@
 					<span class="description-content" id="para-header">
 						Transformez vos idées en entreprise sans quitter votre job.
 					</span>
-					<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank" class="btn gradient_button">REJOIGNEZ
-						NOUS !</a>
+					<button class="btn gradient_button btn_small active_calandly">
+						Prendre un rendez-vous
+					</button>
 				</div>
 			</div>
 		</div>
@@ -124,6 +128,14 @@
 		</div>
 		<!-- <div id="opacity-cards" data-0="background:rgba(0, 40, 98, 0);" data-1000="background:rgba(0,40,98,1)"> -->
 	</section>
+	<!-- calandly -->
+	<div class="content-calandly">
+		<div class="close-calandly active_calandly">
+			<i class="bi bi-x-lg"></i>
+		</div>
+		<div id="calendly"></div>
+	</div>
+	<!-- fin calandy -->
 	<!-- Section a propos -->
 	<section class="offering" id="about">
 		<div class="container">
@@ -209,10 +221,9 @@
 								pour la simulation de votre projet. En bref, S241 est votre hub pour l'innovation, et
 								nous sommes impatients de vous accueillir dans notre communauté dynamique et inspirante.
 							</p>
-							<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank"
-								class="btn wow zoomIn gradient_button btn_small btn-about-sec">
-								Nous rejoindre
-							</a>
+							<button class="btn gradient_button btn_small active_calandly">
+								Prendre un rendez-vous
+							</button>
 						</div>
 						<div class="img-about wow zoomIn">
 							<img src="./img/3d/inscription.png">
@@ -261,10 +272,7 @@
 						</p>
 					</span>
 					<div class="flex-right">
-						<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank"
-							class="wow zoomIn btn gradient_button btn_small btn-about-sec">
-							Nous rejoindre
-						</a>
+						<button class="btn gradient_button btn_small active_calandly">Prennez un rendez-vous !</button>
 					</div>
 				</div>
 			</div>
@@ -646,8 +654,8 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/doriancommunication/s241', text: 'Prendre rendez-vous', color: '#de1838', textColor: '#ffffff', branding: undefined }); }</script>
+	<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+	<script src="./js/calandly.js"></script>
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
 	<script src="other/ajax/jquery.min.js"></script>
 	<script src="libs/wow.min.js"></script>
