@@ -316,7 +316,10 @@ body {
         filter: drop-shadow(2px 2px 0px #ffffff00);
     }
 }
-
+ body div.calendly-badge-widget{
+    top: 10px !important;
+    bottom: initial;
+}
 @keyframes rotate {
     from {
         transform: scale(1) rotate(0deg);
