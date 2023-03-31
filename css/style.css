@@ -128,15 +128,19 @@ div.none-m {
 .content-roadmap {
     width: 100%;
     max-width: 1300px;
+    /* width: 300px; */
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    gap: 10px;
+    display: flex;
+        flex-flow: row wrap;
+        /* grid-template-columns: repeat(auto-fill, 300px); */
+        gap: 30px;
     justify-content: center;
 }
 
 .content-items {
     min-height: 500px;
+    width: 100%;
+        max-width: 370px;
 }
 
 .content-anime {
