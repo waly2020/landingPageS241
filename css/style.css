@@ -381,6 +381,7 @@ div.none-m {
     min-height: 250px;
     display: grid;
     padding: 30px 0 10px 0;
+    overflow: hidden;
 }
 
 .sw_1 {
@@ -428,6 +429,8 @@ div.none-m {
     padding-left: 5px;
     background: #fff;
     font-weight: bold;
+    text-transform: uppercase;
+        font-size: 2em;
 }
 
 .sw_1 .titre-carte-swot,
@@ -802,13 +805,16 @@ div.none-m {
 
 .partenaire {
     display: block;
+    width: 300px;
     height: 100px;
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.155);
 }
 
 .partenaire img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .flex-right {
@@ -877,7 +883,12 @@ strong a {
     }
 
 }
+@media screen and (max-width : 900px) {
+    .condition {
+        grid-column: 1 / span 2;
+    }
 
+}
 
 @media screen and (max-width : 340px) {
     .logo-s {
