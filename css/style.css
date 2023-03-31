@@ -538,7 +538,7 @@ div.none-m {
     /* background: orange; */
     min-height: 300px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: start;
     /* gap: 10px; */
@@ -559,7 +559,7 @@ div.none-m {
 }
 
 .titre-cond {
-    /* font-size: 1.2em; */
+    /* font-size: 10px; */
     font-weight: bold;
     text-transform: uppercase;
     padding: 0 35px;
