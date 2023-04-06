@@ -148,7 +148,6 @@ body {
 
 .textes {
     width: 100%;
-    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,11 +180,11 @@ body {
 
 .textes p {
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     text-align: center;
     line-height: 30px;
-    font-size: 1.4em;
-    color: #444;
+    font-size: 1.2em;
+        color: #535252;
 }
 
 .textes p span {
