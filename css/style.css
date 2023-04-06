@@ -136,13 +136,20 @@ div.none-m {
         gap: 30px;
     justify-content: center;
 }
+.content-roadmap.entreprise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .content-items {
     min-height: 500px;
     width: 100%;
         max-width: 370px;
 }
-
+.content-roadmap.entreprise>* {
+    width: 100%;
+    max-width: 100%;
+}
 .content-anime {
     width: 100%;
     height: 220px;
