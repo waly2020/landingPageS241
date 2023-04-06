@@ -900,7 +900,12 @@ strong a {
     }
 
 }
+@media screen and (max-width : 670px) {
+    .content-roadmap.entreprise .content-items {
+        grid-column: 1/ span 2;
+    }
 
+}
 @media screen and (max-width : 340px) {
     .logo-s {
         width: 80px;
