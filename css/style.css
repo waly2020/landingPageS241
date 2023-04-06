@@ -378,7 +378,9 @@ div.none-m {
     font-size: 2.4em;
     margin-bottom: 50px;
 }
-
+.titre-cont-swot.entreprise {
+    text-align: center;
+}
 .swots {
     width: 100%;
     max-width: 1200px;
@@ -416,7 +418,6 @@ div.none-m {
     text-transform: uppercase;
     word-break: break-all;
 }
-
 .icone-swot {
     font-size: 4em;
     color: #fff;
