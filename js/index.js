@@ -11,7 +11,7 @@ preload.addEventListener("transitionend", () => {
 })
 window.addEventListener("scroll", () => {
     let { scrollY } = window;
-    console.dir(scrollY);
+
     if (scrollY > 50) {
         navigation.classList.add("active");
     } else {

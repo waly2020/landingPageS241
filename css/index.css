@@ -135,7 +135,27 @@ body {
     outline: none;
     cursor: pointer;
 }
-
+#rdv{
+    position: relative;
+    display: none;
+    gap: 10px;
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    background: #d40101;
+    font-size: 17px;
+    border-radius: 30px;
+    color: #fff;
+    animation: rdvShadow 2s ease infinite;
+}
+@keyframes rdvShadow{
+    0%{
+        box-shadow: 0 0 0 0 #af0303a3;
+    }
+    100%{
+        box-shadow: 0 0 0 8px #d4010100;
+    }
+}
 .b-red {
     background-color: #ff0000;
     color: #fff;
@@ -166,7 +186,9 @@ body {
     font-weight: bold;
     color: #ff0000;
 }
-
+.titre.entre h1{
+    color: #333;
+}
 .titre>span {
     position: absolute;
     left: 0;
@@ -176,8 +198,11 @@ body {
     color: #ff0000;
     font-weight: bold;
     opacity: .2;
+    z-index: -1;
 }
-
+.titre.entre > span{
+    color: #000;
+}
 .textes p {
     width: 100%;
     max-width: 900px;
@@ -280,6 +305,7 @@ body {
     width: 100%;
     max-width: 550px;
     color: #5a5959;
+    margin-bottom: 10px;
     /* word-spacing: -6px; */
 }
 
@@ -302,6 +328,39 @@ body {
     width: 100%;
 }
 
+.content-calandly{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(137, 137, 137, 0.735);
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.001);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.content-calandly.active{
+    transform: scale(1);
+    opacity: 1;
+}
+.content-calandly #calendly{
+    width: 100%;
+    height: 100%;
+}
+.content-calandly .close-calandly{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background: rgba(137, 137, 137, 0.735);
+    cursor: pointer;
+}
 @keyframes dropShadow {
     0% {
         filter: drop-shadow(2px 2px 0px #ffffff00);
@@ -344,6 +403,10 @@ body {
 }
 
 @media screen and (max-width : 750px) {
+    .logo{
+        width: 100px;
+        /* display: none; */
+    }
     .cible .video {
         grid-column: 1 / span 2;
     }
@@ -354,11 +417,19 @@ body {
 }
 
 @media screen and (max-width : 395px) {
-    .btn-cible a {
+    .btn-cible > button, .btn-cible > a {
         grid-column: 1 / span 2;
     }
 
     .btns button {
         font-size: 12px;
+    }
+}
+@media screen and (max-width : 360px) {
+    .b-none{
+        display: none;
+    }
+    #rdv{
+        display: flex;
     }
 }

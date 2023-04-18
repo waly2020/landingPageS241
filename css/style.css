@@ -1048,12 +1048,13 @@ strong a {
 
 .active-menu {
     right: 0;
-    z-index: 9999
+    z-index: 9999;
 }
 
 .active-menu:before {
     left: 0;
 }
+
 .content-calandly{
     position: fixed;
     width: 100%;

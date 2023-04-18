@@ -38,6 +38,14 @@
 		</div>
 	</div>
 	<!-- fin preloade -->
+	<!-- calandly -->
+	<div class="content-calandly">
+		<div class="close-calandly active_calandly">
+			<i class="bi bi-x-lg"></i>
+		</div>
+		<div id="calendly"></div>
+	</div>
+	<!-- fin calandy -->
 	<div class="back-info">
 		<img src="./img/bg-main/feautures-grid.png">
 	</div>
@@ -49,10 +57,11 @@
 			<div class="logo">
 				<img src="./img/logo/logo.png" alt="logo s241">
 			</div>
-			<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank">
-				<button type="button" class="cta-btn b-red">Rejoignez-nous !</button>
-			</a>
-
+			<button id="rdv" class="active_calandly">
+				<i class="bi bi-calendar-check"></i>
+				<span>RDV</span>
+			</button>
+			<button type="button" class="cta-btn b-red active_calandly b-none">Prendre un rendez-vous</button>
 		</nav>
 		<div class="textes">
 			<p>
@@ -86,16 +95,19 @@
 							pas
 							comment les concrétiser sans prendre de risques inutiles ? Notre programme d'entrepreneuriat
 							pour les salariés est conçu pour vous aider à tester et valider vos idées avant de lancer
-							votre entreprise.<br>Inscrivez-vous dès maintenant pour rejoindre notre
-							communauté d'entrepreneurs ambitieux-ses
+							votre entreprise.
 
+						</p>
+						<p class="para-cibles">
+							Inscrivez-vous dès maintenant pour rejoindre notre
+							communauté d'entrepreneurs ambitieux-ses
 						</p>
 					</div>
 					<div class="btns-cibles">
 						<div class="btn-cible">
-							<a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank">
-								<button type="button" class="cta-btn b-red">Rejoignez-nous !</button>
-							</a>
+							<!-- <a href="https://forms.gle/ADg6CbYfjvxRhvk58" target="_blank"> -->
+								<button type="button" class="cta-btn b-red active_calandly">Prendre un rendez-vous</button>
+							<!-- </a> -->
 							<a href="./salarie.html">
 								<button class="cta-btn b-black">Plus d'information</button>
 							</a>
@@ -110,7 +122,7 @@
 				</div>
 				<div class="content-cible">
 					<div class="textes-cible">
-						<div class="titre">
+						<div class="titre entre">
 							<span>entreprise</span>
 							<h1>entreprise</h1>
 						</div>
@@ -118,10 +130,12 @@
 							Vous êtes une entreprise ambitieuse en quête d'innovation et ou de croissance pour votre
 							entreprise ? Notre programme d'accompagnement vous offre une opportunité unique de
 							développer et de simuler des idées innovantes en interne, en minimisant les risques et les
-							ressources.<br> Inscrivez-vous dès maintenant pour
+							ressources.
+						</p>
+						<p class="para-cibles">
+							Inscrivez-vous dès maintenant pour
 							rejoindre notre communauté d'entreprises innovantes et bénéficiez d'un soutien complet pour
 							le développement de vos projets
-
 						</p>
 					</div>
 					<div class="btns-cibles">
@@ -140,8 +154,10 @@
 		</div>
 
 	</div>
-	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/doriancommunication/s241', text: 'Prendre rendez-vous', color: '#de1838', textColor: '#ffffff', branding: undefined }); }</script>
+	<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+	<script src="./js/calandly.js"></script>
+	<!-- <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> -->
+    <!-- <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/doriancommunication/s241', text: 'Prendre rendez-vous', color: '#de1838', textColor: '#ffffff', branding: undefined }); }</script> -->
 	<script src="./js/index.js"></script>
 
 </body>
