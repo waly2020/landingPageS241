@@ -2,7 +2,7 @@ const preload = document.querySelector(".preloader");
 const navigation = document.querySelector(".navigation");
 const btns = document.querySelectorAll(".btn button");
 const cibles = document.querySelectorAll(".cible");
-
+alert(screen.width)
 setTimeout(function () {
     preload.classList.add("d-done");
 }, 5000);
