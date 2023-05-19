@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="img/logo/icn.ico" type="image/x-icon">
+	<meta name="viewport"
+		content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<title>SIMULATEUR 241</title>
+	<!-- bootstrap icones -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="other/fontawesome/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="./css/index.css">
+	<!-- rdv -->
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- preloade -->
+	<div class="preloader">
+		<img src="./img/logo/logo.png" class="anime-logo">
+		<div class="preloade-icone">
+			<div class="dr">
+				<i class="bi bi-gear-wide"></i>
+			</div>
+			<div class="dv">
+				<i class="bi bi-gear-wide"></i>
+			</div>
+		</div>
+	</div>
+	<!-- fin preloade -->
+	<!-- calandly -->
+	<div class="content-calandly">
+		<div class="close-calandly active_calandly">
+			<i class="bi bi-x-lg"></i>
+		</div>
+		<div id="calendly"></div>
+	</div>
+	<!-- fin calandy -->
+	<div class="back-info">
+		<img src="./img/bg-main/feautures-grid.png">
+	</div>
+	<div class="back-info">
+		<img src="./img/bg-main/back2.jpg">
+	</div>
+	<div class="content">
+		<nav class="navigation">
+			<div class="logo">
+				<img src="./img/logo/logo.png" alt="logo s241">
+			</div>
+			<button id="rdv" class="active_calandly">
+				<i class="bi bi-calendar-check"></i>
+				<span>RDV</span>
+			</button>
+			<button type="button" class="cta-btn b-red active_calandly b-none">Prendre un rendez-vous</button>
+		</nav>
+		<div class="textes">
+			<p>
+				Bienvenue sur notre site dédié à l'accompagnement des salariés et des entreprises en quête de croissance. Nous sommes convaincus que chaque idée mérite d'être portée et que chaque projet a le potentiel de devenir une entreprise florissante. Notre pré-incubateur est là pour vous aider à concrétiser vos projets et à les mener à bien. Nous sommes heureux de vous accompagner tout au long de cette aventure passionnante.
+			</p>
+		</div>
+		<div class="btns">
+			<div class="btn">
+				<button class="active" data-cible="0">Je suis un salarié.e</button>
+				<button data-cible="1">Je suis une entreprise</button>
+			</div>
+		</div>
+		<div class="cibles">
+			<div class="cible active trans-r">
+				<div class="video">
+					<video src="./videos/salarie.mp4" controls poster="./videos/vignete.jpeg"></video>
+				</div>
+				<div class="content-cible">
+					<div class="textes-cible">
+						<div class="titre">
+							<span>salarié.e</span>
+							<h1>salarié.e</h1>
+						</div>
+						<p class="para-cibles">
+							Vous êtes un.e salarié.e talentueux.se et créatif.ve avec des idées novatrices, mais vous ne
+							savez
+							pas
+							comment les concrétiser sans prendre de risques inutiles ? Notre programme d'entrepreneuriat
+							pour les salariés est conçu pour vous aider à tester et valider vos idées avant de lancer
+							votre entreprise.
+
+						</p>
+						<p class="para-cibles">
+							Inscrivez-vous dès maintenant pour rejoindre notre
+							communauté d'entrepreneurs ambitieux-ses
+						</p>
+					</div>
+					<div class="btns-cibles">
+						<div class="btn-cible">
+							<button type="button" class="cta-btn b-red active_calandly">Prendre un rendez-vous</button>
+							<a href="./salarie.html">
+								<button class="cta-btn b-black">Plus d'information</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- entreprise -->
+			<div class="cible trans-l">
+				<div class="video">
+					<video src="./videos/salarie.mp4" controls poster="./videos/vignete.jpeg"></video>
+				</div>
+				<div class="content-cible">
+					<div class="textes-cible">
+						<div class="titre entre">
+							<span>entreprise</span>
+							<h1>entreprise</h1>
+						</div>
+						<p class="para-cibles">
+							Vous êtes une entreprise ambitieuse en quête d'innovation et ou de croissance pour votre
+							entreprise ? Notre programme d'accompagnement vous offre une opportunité unique de
+							développer et de simuler des idées innovantes en interne, en minimisant les risques et les
+							ressources.
+						</p>
+						<p class="para-cibles">
+							Inscrivez-vous dès maintenant pour
+							rejoindre notre communauté d'entreprises innovantes et bénéficiez d'un soutien complet pour
+							le développement de vos projets
+						</p>
+					</div>
+					<div class="btns-cibles">
+						<div class="btn-cible">
+							<button type="button" class="cta-btn b-red active_calandly">Prendre un rendez-vous</button>
+							<a href="./entreprise.html">
+								<button class="cta-btn b-black">Plus d'information</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- fin entreprise -->
+		</div>
+
+	</div>
+	<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+	<script src="./js/calandly.js"></script>
+	<!-- <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> -->
+    <!-- <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/doriancommunication/s241', text: 'Prendre rendez-vous', color: '#de1838', textColor: '#ffffff', branding: undefined }); }</script> -->
+	<script src="./js/index.js"></script>
+
+</body>
+
+</html>
